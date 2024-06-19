@@ -7,29 +7,19 @@ Scheduled Execution: Utilizes system schedulers (Task Scheduler on Windows or cr
 Easy Configuration: Simple setup and configuration for different game IDs and scheduling preferences.
 # Requirements
 SteamCMD: Steam Console Client for executing Steam commands.
-Windows or Linux: Compatible with both operating systems with appropriate scripts.
+Windows: Compatible with operating system with appropriate scripts.
 Valid Steam Account: A Steam account with login credentials.
 Setup Instructions
 Install SteamCMD:
 
 Download SteamCMD and follow the installation instructions for your operating system.
+Unzip project files into folder with steamcmd.exe .
 Configure the Script:
 
-Modify the script (run_games.bat for Windows or run_games.sh for Linux) with your Steam login credentials and the game IDs you want to automate.
+Modify the config (config.txt) with your credentials and app id(s) that you want to open for idle.
+
+Modify the script (run_games.bat) with your Steam login credentials and the game IDs you want to automate.
 Schedule the Script:
-
-Windows: Use Task Scheduler to run the run_games.bat script every three hours.
-Linux: Use cron to schedule the run_games.sh script to run every three hours.
-Usage
-Clone the repository:
-
-sh
-Copy code
-git clone https://github.com/QRage/SteamAutoDropper.git
-cd SteamDropAutoRunner
-Edit the script with your Steam credentials and game IDs.
-
-Set up the task scheduler or cron job to automate the script execution.
 
 # Contributing
 Contributions are welcome! If you have any improvements, bug fixes, or new features, please feel free to submit a pull request.
